@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.genesys.challenge.redamehali.activities.MainActivity">
+
+    <item
+        android:id="@+id/set_seed"
+        android:orderInCategory="100"
+        android:title="@string/action_seed"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/set_result_count"
+        android:orderInCategory="200"
+        android:title="@string/action_result_count"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/fetch_results"
+        android:orderInCategory="300"
+        android:title="@string/fetch_users"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/summary_of_countries_and_users_nationality"
+        android:orderInCategory="300"
+        android:lines="2"
+        android:title="@string/summary_of_countries_and_users_nationality"
+        app:showAsAction="never" />
+</menu>

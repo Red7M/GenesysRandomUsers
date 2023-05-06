@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/UsersFragment">
+
+    <fragment
+        android:id="@+id/UsersFragment"
+        android:name="com.genesys.challenge.redamehali.fragments.UsersFragment"
+        android:label="@string/users_fragment_label"
+        tools:layout="@layout/users_fragment">
+
+        <action
+            android:id="@+id/action_UsersFragment_to_UserDetailsFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.genesys.challenge.redamehali.fragments.UserDetailsFragment"
+        android:label="@string/user_detail_fragment_label"
+        tools:layout="@layout/user_details_fragment">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/UsersFragment" />
+    </fragment>
+</navigation>

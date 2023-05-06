@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">RandomUsers</string>
+    <string name="action_seed">Set Seed</string>
+    <string name="action_result_count">Set fetch results count</string>
+    <string name="fetch_users">Fetch users</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="users_fragment_label">Users</string>
+    <string name="user_detail_fragment_label">User Details</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="first_name_last_name">First and last name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="set_a_seed">Set a seed</string>
+    <string name="set_results_max_is_two_thousand">Set fetch results count (max is 2000)</string>
+    <string name="count_cannot_be_more_than_two_thousand_results">Count cannot be more than 2000 results</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="one_gender_filter_needs_to_be_checked">One gender filter needs to be checked at least</string>
+    <string name="seed_is_set_now_to_xyz">"Seed is set now to %1$s</string>
+    <string name="fetch_count_is_set_now_to_xyz">Fetch count is set now to %1d</string>
+    <string name="user_photo">User photo</string>
+    <string name="email">Email</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="username">Username</string>
+    <string name="city">City</string>
+    <string name="password">Password</string>
+    <string name="uuid">uuid</string>
+    <string name="summary_of_countries_and_users_nationality">Users nationalities and countries count</string>
+    <string name="male_filter_chip">Male</string>
+    <string name="female_filter_chip">female</string>
+</resources>
